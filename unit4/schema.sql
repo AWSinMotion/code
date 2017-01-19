@@ -1,3 +1,10 @@
+CREATE TABLE sessions(
+  id varchar(32) NOT NULL,
+  access int(10) unsigned DEFAULT NULL,
+  data text,
+  PRIMARY KEY (id)
+);
+
 CREATE TABLE users(
   id int NOT NULL AUTO_INCREMENT,
   username varchar(15) NOT NULL,
