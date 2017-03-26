@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-sudo su
+sudo su -
 
 yum update
 
